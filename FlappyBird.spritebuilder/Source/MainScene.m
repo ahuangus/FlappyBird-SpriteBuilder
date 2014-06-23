@@ -48,7 +48,6 @@
     _scoreLabel.visible = true;
     
     [super initialize];
-    [self addObstacle];
 }
 
 #pragma mark - Touch Handling
