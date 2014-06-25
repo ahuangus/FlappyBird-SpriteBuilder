@@ -4,6 +4,7 @@
 
 @implementation GamePlayScene
 
+
 - (void)initialize
 {
     // your code here
@@ -31,4 +32,17 @@
     // this will get called every time the player touches the screen
     [character flap];
 }
+
+//abstract method
+-(void) addObstacle
+{
+    
+}
+
+//abstract method
+-(void) showScore
+{
+    
+}
+
 @end
